@@ -1,5 +1,10 @@
 var btnTryit = document.querySelector('.btnTryit');
 var output = document.querySelector('.output');
+var btnGithub = document.getElementById('btnGithub');
+
+btnGithub.onclick = function() {
+    window.location.href = `https://github.com/kratosman/go-on-api.git`;
+}
 
 btnTryit.addEventListener('click', () => {
     output.innerHTML = `<div class="loader"></div>`
