@@ -425,10 +425,3 @@ pre code {
       transform: rotate(360deg);
     }
   }
-
-@media screen and (min-resolution: 150dpi) {
-    body {
-        background-color: red;
-        padding: 30px;
-    }
-}
